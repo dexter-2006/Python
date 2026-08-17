@@ -4,7 +4,7 @@ x=int(input("Enter four digit number:- "))
 org=x
 t=0
 a=1000
-if(x>=1111 and x<=9999):
+if(x>=1111 and x<=9999): # in this we can use len() also for shortcut
     i=1
     while i<=4:
         y=x%10
@@ -28,3 +28,4 @@ if(t==org):
     print(f"yes plaindrome of {x} is {t} exist")
 else:
     print("No plaindrome exist")
+
